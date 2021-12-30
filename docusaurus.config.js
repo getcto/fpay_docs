@@ -8,14 +8,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'FPay Documentation',
   tagline: 'Documentation is fun',
-  url: 'https://getcto.github.io/',
+  url: 'https://getcto.github.io',
   baseUrl: '/fpay_docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'getcto', // Usually your GitHub org/user name.
   projectName: 'fpay_docs', // Usually your repo name.
-
+  trailingSlash: true,
   presets: [
     [
       'classic',
