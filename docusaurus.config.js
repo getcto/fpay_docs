@@ -9,7 +9,7 @@ const config = {
   title: 'FPay Documentation',
   tagline: 'Documentation is fun',
   url: 'https://getcto.github.io/',
-  baseUrl: '/fpay_docs',
+  baseUrl: '/fpay_docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
