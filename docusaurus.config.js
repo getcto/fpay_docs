@@ -15,7 +15,7 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: 'getcto', // Usually your GitHub org/user name.
   projectName: 'fpay_docs', // Usually your repo name.
-  trailingSlash: true,
+ 
   presets: [
     [
       'classic',
