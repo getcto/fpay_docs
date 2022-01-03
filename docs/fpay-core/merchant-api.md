@@ -6,36 +6,38 @@ sidebar_position: 1
 
 ## Register a merchant
 
-```
-[post] /merchants
+```md title="[POST]  /merchants"
+{
+    name
+    email
+    registration_no
+    address
+    state
+    country
+    bank_account
+    bank_id
+    bank_holder_name
+    domain
+    fees
+    settlement_day
+}
 ```
 
-1. name
-2. email
-3. registration_no
-4. address
-5. state
-6. country
-7. bank_account
-8. bank_id
-9. bank_holder_name
-10. domain
-11. fees
-12. settlement_day
+
 
 ## Request merchant information
 
+```md title="[POST] /merchants/request"
+{
+    code
+    amount
+    user_name
+    user_email
+    user_contact
+    ref_id
+    callback_url
+    response_url
+    remark
+    signature
+}
 ```
-[post] /merchants/request
-```
-
-1. code
-2. amount
-3. user_name
-4. user_email
-5. user_contact
-6. ref_id:
-7. callback_url
-8. response_url
-9. remark
-10. signature

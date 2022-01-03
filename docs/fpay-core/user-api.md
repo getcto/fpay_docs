@@ -6,12 +6,13 @@ sidebar_position: 2
 
 ## Create a user
 
-```
-[post] /users
+```md title="[POST] /users"
+{
+    name
+    username - unique
+    password
+    role <!-- ADMIN / USER -->
+}
 ```
 
-1. name
-2. username - unique
-3. password
-4. role - ADMIN, USER
 
