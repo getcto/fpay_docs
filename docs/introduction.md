@@ -4,32 +4,21 @@ sidebar_position: 1
 
 # Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## Rapid Pay URL Format
 
-## Getting Started
+- Maybank : `maybank2u.rapidpay.asia`
+- CIMB Bank : `cimbclick.rapidpay.asia`
+- Hong Leong Bank : `hlb.rapidpay.asia`
+- RHB Bank : `rhb.rapidpay.asia`
 
-Get started by **creating a new site**.
+## API Rapid Pay URL
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+- fpay-core : `https://api.rapidpay.asia`
+- fpay-click : `https://rapidpay.asia/api`
 
-## Generate a new site
 
-Generate a new Docusaurus site using the **classic template**:
+## Connection string used for database
 
-```shell
-npm init docusaurus@latest my-website classic
-```
-
-## Start your site
-
-Run the development server:
-
-```shell
-cd my-website
-
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and displays your changes.
+:::note
+Please send your request via **[WhatsApp](https://wa.me/60123550626)**.
+:::

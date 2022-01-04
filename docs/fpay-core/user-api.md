@@ -9,9 +9,9 @@ sidebar_position: 2
 ```md title="[POST] /users"
 {
     name
-    username - unique
+    username // unique
     password
-    role <!-- ADMIN / USER -->
+    role // ADMIN or USER
 }
 ```
 
