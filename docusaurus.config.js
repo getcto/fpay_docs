@@ -24,13 +24,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/getcto/fpay_docs',
+          editUrl: 'https://github.com/getcto/fpay_docs/blob/main',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/getcto/fpay_docs',
+            'https://github.com/getcto/fpay_docs/blob/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -45,7 +45,7 @@ const config = {
       navbar: {
         title: 'FPay',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'FPay Logo',
           src: 'img/logo.svg',
         },
         items: [
