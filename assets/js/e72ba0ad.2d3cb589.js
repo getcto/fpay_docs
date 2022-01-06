@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfpay_docs_docusaurus=self.webpackChunkfpay_docs_docusaurus||[]).push([[899],{8628:function(a){a.exports=JSON.parse('{"allTagsPath":"/fpay_docs/blog/tags","slug":"/fpay_docs/blog/tags/hola","name":"hola","count":1,"permalink":"/fpay_docs/blog/tags/hola"}')}}]);
