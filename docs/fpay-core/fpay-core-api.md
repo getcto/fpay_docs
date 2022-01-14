@@ -92,3 +92,21 @@ sidebar_position: 1
 
 ```md title="[GET] /users/:id"
 ```
+
+## TO BE CONFIRMED ###
+
+:::note
+**Table: merchant_request**
+:::
+
+```
+{
+    callback_response
+    callback_count           
+    callback_is_repeat       
+    callback_repeat_response 
+    transactions_id          
+    transactions_id_bank     
+    transactions_username  
+}
+```
