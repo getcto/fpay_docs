@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfpay_docs_docusaurus=self.webpackChunkfpay_docs_docusaurus||[]).push([[535],{5641:function(s){s.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"2022 Jan 11","permalink":"/fpay_docs/blog/2022-jan-11"},{"title":"2021 Nov 12","permalink":"/fpay_docs/blog/2021-nov-12"}]}')}}]);

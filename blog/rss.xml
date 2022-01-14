@@ -4,9 +4,24 @@
         <title>FPay Documentation Blog</title>
         <link>https://getcto.github.io/fpay_docs/blog</link>
         <description>FPay Documentation Blog</description>
-        <lastBuildDate>Thu, 06 Jan 2022 02:28:36 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 14 Jan 2022 01:45:32 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[2022 Jan 11]]></title>
+            <link>https://getcto.github.io/fpay_docs/blog/2022-jan-11</link>
+            <guid>2022-jan-11</guid>
+            <pubDate>Fri, 14 Jan 2022 01:45:32 GMT</pubDate>
+            <description><![CDATA[FPay Click]]></description>
+            <content:encoded><![CDATA[<h2>FPay Click</h2><p>:::info
+<strong>Files</strong>: <code>TransferOTPStrategy.js</code>, <code>AppApprovalStrategy.js</code>, <code>LoginStrategy.js</code>, <code>MerchantService.js</code>
+:::</p><ul><li>store transaction id for under <code>bank.transactions</code> and <code>core.transactions</code></li><li>added callback - store response from merchant. </li></ul><p>:::note
+<strong>1</strong> - success</p><p><strong>others</strong> - fail and will trigger the call back in FPay Core
+:::</p><ul><li>added <code>transactions_username</code> during user login</li></ul><h2>FPay Core</h2><p>:::info
+<strong>Files</strong>: <code>job.controller.ts</code>, (new) <code>transactions.service.ts</code>
+:::</p><p><strong>Prisma</strong>: added new columns</p><ul><li><p>New <!-- -->[GET]<!-- --> /jobs/request-callback</p></li><li><p>New <!-- -->[POST]<!-- --> /jobs/request-submit/<!-- -->[request id]<!-- --> </p></li><li><p>package.json: added scripts for prisma db push.</p></li></ul><h2>Fallback</h2><pre><code>/jobs/request-callback
+</code></pre><ul><li>stuck in callback when link is not valid.</li></ul>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[2021 Nov 12]]></title>
             <link>https://getcto.github.io/fpay_docs/blog/2021-nov-12</link>

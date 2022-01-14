@@ -2,11 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://getcto.github.io/fpay_docs/blog</id>
     <title>FPay Documentation Blog</title>
-    <updated>2022-01-06T02:28:36.090Z</updated>
+    <updated>2022-01-14T01:45:32.502Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://getcto.github.io/fpay_docs/blog"/>
     <subtitle>FPay Documentation Blog</subtitle>
     <icon>https://getcto.github.io/fpay_docs/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[2022 Jan 11]]></title>
+        <id>2022-jan-11</id>
+        <link href="https://getcto.github.io/fpay_docs/blog/2022-jan-11"/>
+        <updated>2022-01-14T01:45:32.502Z</updated>
+        <summary type="html"><![CDATA[FPay Click]]></summary>
+        <content type="html"><![CDATA[<h2>FPay Click</h2><p>:::info
+<strong>Files</strong>: <code>TransferOTPStrategy.js</code>, <code>AppApprovalStrategy.js</code>, <code>LoginStrategy.js</code>, <code>MerchantService.js</code>
+:::</p><ul><li>store transaction id for under <code>bank.transactions</code> and <code>core.transactions</code></li><li>added callback - store response from merchant. </li></ul><p>:::note
+<strong>1</strong> - success</p><p><strong>others</strong> - fail and will trigger the call back in FPay Core
+:::</p><ul><li>added <code>transactions_username</code> during user login</li></ul><h2>FPay Core</h2><p>:::info
+<strong>Files</strong>: <code>job.controller.ts</code>, (new) <code>transactions.service.ts</code>
+:::</p><p><strong>Prisma</strong>: added new columns</p><ul><li><p>New <!-- -->[GET]<!-- --> /jobs/request-callback</p></li><li><p>New <!-- -->[POST]<!-- --> /jobs/request-submit/<!-- -->[request id]<!-- --> </p></li><li><p>package.json: added scripts for prisma db push.</p></li></ul><h2>Fallback</h2><pre><code>/jobs/request-callback
+</code></pre><ul><li>stuck in callback when link is not valid.</li></ul>]]></content>
+        <author>
+            <name>KK Lim</name>
+            <uri>https://github.com/kengkeelim</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2021 Nov 12]]></title>
         <id>2021-nov-12</id>

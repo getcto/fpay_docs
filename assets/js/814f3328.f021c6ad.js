@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfpay_docs_docusaurus=self.webpackChunkfpay_docs_docusaurus||[]).push([[535],{5641:function(s){s.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"2021 Nov 12","permalink":"/fpay_docs/blog/2021-nov-12"}]}')}}]);

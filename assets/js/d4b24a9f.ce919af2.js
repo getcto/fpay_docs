@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfpay_docs_docusaurus=self.webpackChunkfpay_docs_docusaurus||[]).push([[317],{4684:function(a){a.exports=JSON.parse('{"allTagsPath":"/fpay_docs/blog/tags","slug":"/fpay_docs/blog/tags/fpay-core","name":"fpay core","count":2,"permalink":"/fpay_docs/blog/tags/fpay-core"}')}}]);

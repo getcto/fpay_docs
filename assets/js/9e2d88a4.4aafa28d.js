@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfpay_docs_docusaurus=self.webpackChunkfpay_docs_docusaurus||[]).push([[810],{422:function(a){a.exports=JSON.parse('{"allTagsPath":"/fpay_docs/blog/tags","slug":"/fpay_docs/blog/tags/fallback","name":"fallback","count":1,"permalink":"/fpay_docs/blog/tags/fallback"}')}}]);
